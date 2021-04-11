@@ -15,7 +15,12 @@ hr {
   margin-top: 30px;
   padding: 10px;
   display: flex;
-  animation: fade;
+  flex-wrap: wrap;
+}
+
+#result {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .logo-wrapper {
@@ -27,6 +32,7 @@ hr {
   margin: 0 auto 0 40px;
   box-shadow: 0 0 5px darkgray;
   background-color: white;
+  padding: 10px;
   table {
     width: 100%;
     height: 100%;
@@ -37,12 +43,22 @@ hr {
   img {
     width: auto;
   }
+  @media only screen and (max-width: 768px) {
+    margin-top: 30px;
+    margin-left: auto;
+    img {
+      height: 150px;
+    }
+  }
 }
 
 .form-wrapper {
   display: table-cell;
   margin-right: 40px;
   margin-left: auto;
+  @media only screen and (max-width: 768px) {
+    margin-right: auto;
+  }
 }
 
 .text-center {
