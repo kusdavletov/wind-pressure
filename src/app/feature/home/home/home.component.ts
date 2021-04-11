@@ -69,7 +69,7 @@ export class HomeComponent implements OnInit {
     },
     {
       name: 'windPressure',
-      displayName: 'Ветряное давление',
+      displayName: 'Ветряное давление (кг/м2)',
       sortable: true,
     },
   ];
